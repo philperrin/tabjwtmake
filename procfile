@@ -1,3 +1,2 @@
-web: py tabjwtmake.py
-
-worker: py tabjwtmake.py
+"web: python tabjwtmake.py" 
+"worker: python tabjwtmake.py" 
