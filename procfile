@@ -1,2 +1,2 @@
-"web: python tabjwtmake.py" 
-"worker: python tabjwtmake.py" 
+web: python tabjwtmake.py
+worker: python tabjwtmake.py
