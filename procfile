@@ -1,3 +1,3 @@
-web: python tabjwtmake.py
+web: py tabjwtmake.py
 
-worker: python tabjwtmake.py
+worker: py tabjwtmake.py
