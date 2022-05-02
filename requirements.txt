@@ -16,7 +16,7 @@ entrypoints==0.4
 executing==0.8.3
 filelock==3.6.0
 flufl.i18n==1.1.3
-fn==0.4.3
+# fn==0.4.3
 fonttools==4.28.2
 google-api-core==2.3.2
 google-api-python-client==2.36.0
