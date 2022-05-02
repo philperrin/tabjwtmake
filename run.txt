@@ -1,5 +1,0 @@
-heroku login
-heroku git:remote -app phdata-embedded-jwt
-git add .
-git commit -m "Deployment commit"
-git push heroku main
