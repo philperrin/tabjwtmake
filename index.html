@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embed a Tableau Dashboard from Online</title>
+    <script type="module" src="https://embedding.tableauusercontent.com/tableau.embedding.3.1.0.min.js"></script>
+</head>
+<body>
+    "here is a dashboard from our tableau online instance:"<br>
+     <tableau-viz
+        id="tableauViz"
+        width="1000"
+        height="1000"
+        hide-tabs=true
+        touch-optimize=false
+        disable-url-actions=false
+        debug=false
+        src="https://prod-useast-b.online.tableau.com/t/tessellationhq/views/Strategy2021Overview/2021DataStrategySummary?:showAppBanner=false&:display_count=n&:showVizHome=n&:origin=viz_share_link"
+        device="Desktop"
+        toolbar="hidden"
+        token= {{token:}}
+        >   
+    </tableau-viz>
